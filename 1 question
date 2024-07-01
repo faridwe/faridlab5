@@ -1,0 +1,16 @@
+public class Demo {
+    public static void main(String[] args) {
+        greet();
+        printNumbers(5);
+    }
+
+    public static void greet() {
+        System.out.println("Hello, welcome to the demo!");
+    }
+
+    public static void printNumbers(int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+        }
+    }
+}
